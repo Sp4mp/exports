@@ -25,3 +25,13 @@ TriggerEvent("ws_notify:announce", "info", "Information", "Announce by web-servi
 -- variations: "team", "ooc", "invader"
 TriggerEvent("ws_notify:advanced", variation, message, time, playerId, playerName)
 TriggerEvent("ws_notify:advanced", "team", "Team-Notify by web-services.io", 5000, 1, "[WS] DominikV")
+
+
+WS_HUD
+
+
+-- Notify Event
+-- Example: 
+-- types: info, warning, error, success
+TriggerEvent("ws_notify", "type", "Title", "Message", 5000)
+
